@@ -25,4 +25,11 @@ $(function() {
     }
   });
 
+  $("#subject5 #change_header_html").click(function(){
+    $('h2').each(function(){
+      var section = '【' + $(this).html() + '】';
+      $(this).html(section);
+    });
+  });
+
 });;
