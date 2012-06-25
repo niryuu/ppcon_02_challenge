@@ -17,4 +17,12 @@ $(function() {
     $('#member_list_remove #akari').remove();
   });
 
+  $("#subject4 #change_visible_momo").click(function(){
+    if($('#stealth_momo').css('display') == 'none'){
+      $('#stealth_momo').css('display', '');
+    }else{
+      $('#stealth_momo').css('display', 'none');
+    }
+  });
+
 });;
