@@ -13,6 +13,8 @@ $(function() {
     $('#member_list').prepend('<li>向日葵</li>');
   });
 
-
+  $("#subject3 #remove_akari").click(function(){
+    $('#member_list_remove #akari').remove();
+  });
 
 });;
